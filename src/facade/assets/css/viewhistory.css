@@ -1,0 +1,25 @@
+div.m-panel.m-tools {
+    max-height: 40px;
+}
+
+/****************************
+     FIREFOX HACKS
+****************************/
+
+@-moz-document url-prefix() {
+    #m-historyprevious-button {
+        margin-right: -5px;
+    }
+}
+
+
+/****************************
+ INTERNET EXPLORER HACKS
+****************************/
+
+@media all and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+    #m-historyprevious-button {
+        margin-right: -5px;
+    }
+}
